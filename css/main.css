@@ -1,6 +1,11 @@
 .card {
-  margin-top: 9cm;
+  margin-top: 8cm;
   margin-left: 2cm;
+}
+
+#sul {
+  margin-top: -14cm;
+  margin-left: 10cm;
 }
 
 .Judul {
@@ -12,5 +17,7 @@
 }
 
 .subjudul {
+  display: flex;
+  justify-content: center;
   font-family: sans-serif;
 }

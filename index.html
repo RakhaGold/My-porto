@@ -9,7 +9,7 @@
     <title>Rakha WEB</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav id="navbar-example2" class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
         <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
@@ -29,6 +29,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading1">Shop</a>
+            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Social
@@ -37,16 +40,6 @@
                 <li><a class="dropdown-item" href="https://github.com/RakhaGold">My GitHub</a></li>
                 <li><a class="dropdown-item" href="https://www.instagram.com/nyljsmn/">My GirlFriend </a></li>
               </ul>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Product
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="https://github.com/RakhaGold">Jawa</a></li>
-                  <li><a class="dropdown-item" href="https://www.instagram.com/nyljsmn/">Batak</a></li>
-                </ul>
-            </li>
-          </ul>
           </div>
         </div>
       </div>
@@ -58,8 +51,9 @@
     <H1 class="Judul">HI!</H1>
     <h2 class="subjudul">My Name Is Rakha</h2>
 
-
-    <div class="card" style="width: 18rem;">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="navbar navbar-expand-lg bg-body-tertiary" tabindex="0">
+      
+    <div class="card" id="jav" style="width: 18rem;">
       <img src="https://i.pinimg.com/564x/f9/f2/f8/f9f2f8ea527f6e95a23543ec6fdbe635.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Jawa</h5>
@@ -67,6 +61,16 @@
         <a href="#" class="btn btn-primary">Pesan Sekarang</a>
       </div>
     </div>
+    <div class="card" id="scrollspyHeading1" style="width: 18rem;">
+      <img src="https://i.pinimg.com/564x/f9/f2/f8/f9f2f8ea527f6e95a23543ec6fdbe635.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Jawa</h5>
+        <p class="card-text">Orang orang jawa yang siap menemani anda dalam kesepian</p>
+        <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+      </div>
+    </div>
+    </div> 
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
